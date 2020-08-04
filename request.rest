@@ -1,0 +1,30 @@
+POST http://localhost:8000/student/signin
+Content-Type: application/json
+
+{
+    "rollNumber":"1780210010",
+    "password":"12345"
+}
+###
+GET http://localhost:8000/isSigned
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/student/signOut
+
+### 
+POST http://localhost:8000/administration/signIn
+Content-Type: application/json
+
+{
+    "empId":"12345",
+    "password":"12345"
+}
+###
+
+GET http://localhost:8000/administration/isSigned
+
+###
+
+GET http://localhost:8000/administration/signOut
